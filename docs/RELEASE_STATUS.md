@@ -10,6 +10,15 @@ The September 30 patch accepted only exact known built-in plugin metadata and pa
 
 ## Validation boundaries
 
+Publication-time verification on 2026-10-07: 313 Python tests ran in a clean,
+short-path Windows source extraction: 310 passed, 2 skipped and 1 failed
+(`test_two_live_instances_bidirectional_cli_and_independent_stop`, at the reverse
+dispatch receipt query). All 15 frontend tests passed. The Python suite is not
+fully green; this source snapshot is published as a prerelease with that unresolved
+test explicitly disclosed. A deeper extraction also failed both bidirectional
+fixture branches; the same bidirectional test passed in the short-path extraction.
+Use short program/data paths and keep fixture runtime outside Git ancestry.
+
 The September 23 full regression recorded 309 Python passes / 2 skips and 15 frontend passes. Release-time verification is recorded separately in the GitHub release notes. Fixtures do not establish model availability, new-machine acceptance, or macOS/Linux support. Private development logs, requests and receipts are excluded from this publication.
 
 The historical Windows 0.5.0 EXE was built September 7 and does not include subsequent source changes. It is not included as a current binary in this source release. Use Python 3.11+ and QuickStart.cmd for this snapshot.
