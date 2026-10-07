@@ -1,0 +1,537 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "2f7809998a266d4e67b0a189651c896ccfee9e1534b2d6afb37912b44a2db459",
+      "size": 479
+    },
+    {
+      "path": "Install.cmd",
+      "sha256": "056b9f49887b69cdfe675314d9120006175ba6bd091ee16b17794b19999f35d2",
+      "size": 611
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "57999e65301373464eeb4c24b464d226399f31747569d097613d2be5d4a615aa",
+      "size": 1677
+    },
+    {
+      "path": "QuickStart.cmd",
+      "sha256": "aeab2c93952c313243d4abcddea6838927d2760d4eb99e6e9f0cdae2969aca92",
+      "size": 213
+    },
+    {
+      "path": "README.md",
+      "sha256": "72b469284818872f76ae3d57d932b61f30df344050559df51ff234c223060814",
+      "size": 7241
+    },
+    {
+      "path": "README.zh-TW.md",
+      "sha256": "490fd9b6150aca5f69f47409cfe1fea227a8a5a68287815bdb853aadecb39bea",
+      "size": 8187
+    },
+    {
+      "path": "config/app-cli.example.json",
+      "sha256": "7d7f96a7e344309a0fd8b4044cf332f57b6980032450bbd0d56a435fbf6128c2",
+      "size": 513
+    },
+    {
+      "path": "config/bidirectional.example.json",
+      "sha256": "81dbf70d85555b33c739e500f328d64659a22445dc3c641f157ed8f1551c0dd7",
+      "size": 593
+    },
+    {
+      "path": "config/claude-default.example.json",
+      "sha256": "216ec3ecc6dd4b493b9731fc46fc989cac6c287a487059b884e5ec36de3d1c9d",
+      "size": 427
+    },
+    {
+      "path": "config/claude-fable.example.json",
+      "sha256": "76c8ce2c8594060e47e3ecb5bef45e64ca9f09395449dc682e9daa9bc4519390",
+      "size": 430
+    },
+    {
+      "path": "config/codex-app.example.json",
+      "sha256": "3d29e583ad40873e14d8cfbf1cc2aea1702a67cd8cb14e9481bf8dd1569173d8",
+      "size": 398
+    },
+    {
+      "path": "config/relay.example.json",
+      "sha256": "c673c80d0875f3487f47188e8c64143fbd66ae6567d6d5a7c2972f2ff05d897f",
+      "size": 586
+    },
+    {
+      "path": "config/relay.file.example.json",
+      "sha256": "6c4bdc532efbf7938cf00e179802ba38ec63c3eaa4cf0c2374365a6d3c14e95c",
+      "size": 278
+    },
+    {
+      "path": "docs/AGENT_GUIDE.md",
+      "sha256": "a82a67365a8df5796682f5201852ad62781f165c6f4453b4aa7a2787b0e51418",
+      "size": 23072
+    },
+    {
+      "path": "docs/AGENT_GUIDE.zh-TW.md",
+      "sha256": "7057c2c307e35f5499f26ac03777686f3a57d4bb41f47b67f70360c53cf16906",
+      "size": 23642
+    },
+    {
+      "path": "docs/CODEX_APP.md",
+      "sha256": "d5c88738fc0e63a4d5271f91d257ecf199b0d6e88d6cbc98ef057d8b6bbc55f3",
+      "size": 14243
+    },
+    {
+      "path": "docs/CONFIGURATION.md",
+      "sha256": "c43ffd76c4779506de57c66a38bc3e2a809c314ac66634491984a22ea22e9c34",
+      "size": 10156
+    },
+    {
+      "path": "docs/GUI_CONTRACT.md",
+      "sha256": "37e6a25c1ce27f327f49b6680912969786da4765bf017ce3fa8d2750cb00d7dd",
+      "size": 6003
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "sha256": "f6dd49f18a9a2495a13874b42c29bc8ad4e15ee6c0c4262441da90c6251d5035",
+      "size": 9076
+    },
+    {
+      "path": "docs/INSTANCES.md",
+      "sha256": "b390512afb6021d4dbc5849363718f10af75836159248a274c0adddf7d32eb8e",
+      "size": 8971
+    },
+    {
+      "path": "docs/MIGRATION.md",
+      "sha256": "fa51de58d5e26c07347ac03e10b259656b131a07ad2fedf5339cfbc0a0605cb5",
+      "size": 3598
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "sha256": "31462fd72e5304dfade2b329d8007fe005c7f6f3edfd5c88f3415445a4417a9c",
+      "size": 5997
+    },
+    {
+      "path": "docs/PROTOCOL.md",
+      "sha256": "b72fb3d1f5e1011cbdea0061aba99db629317e881878cdb4cbf41ce3148f74f8",
+      "size": 4186
+    },
+    {
+      "path": "docs/QUICKSTART.md",
+      "sha256": "7059c7555aff6220f8eb2e5bd716c2e2d75bda7f34defe433fd9d7437246263c",
+      "size": 5153
+    },
+    {
+      "path": "docs/QUICKSTART.zh-TW.md",
+      "sha256": "5c3122ad6219dc1d0e01d35f0fcb1d4c2c648a84baa12d0b41e3c7da3f809e69",
+      "size": 4972
+    },
+    {
+      "path": "docs/RELEASE_NOTES.md",
+      "sha256": "7bbe0f6f6b3c72c0ad830069e44b08e8b10a4d6fa9351c0b63abc9250b0627a2",
+      "size": 6838
+    },
+    {
+      "path": "docs/RELEASE_STATUS.md",
+      "sha256": "80438eb174253a99fa0ebd10934ae58f9e6c90cf2584e6b8f574bcb4502aefea",
+      "size": 2434
+    },
+    {
+      "path": "docs/SERVICE_TERMS.md",
+      "sha256": "60def56160eaf6de44dd4b09b00430f1acf5df4d3a7cb851d86e8bfd588e0331",
+      "size": 3467
+    },
+    {
+      "path": "docs/SHARING.md",
+      "sha256": "5f3760fe88448aef067e259ca9011d9acbe15e5f510d3bec214e01d2cbb59997",
+      "size": 4348
+    },
+    {
+      "path": "docs/USER_MANUAL.zh-TW.md",
+      "sha256": "dc9a6935a28b2a57951ed69d7db16995c53958ca598511985fe4cc9e73f4a50d",
+      "size": 9729
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "a5b783522c8493823fe96422dc16795433e247e205926797c03dc94a25d92a0c",
+      "size": 9844
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "3152114f506fa3fbfbf3662d0c94b379c2cda940c9cec501b31397680dbd9565",
+      "size": 522
+    },
+    {
+      "path": "relay.py",
+      "sha256": "5143a5a9c812aaa90f1cfd5abb034528ead61f8ea748882cac46d645a3ef80a7",
+      "size": 66
+    },
+    {
+      "path": "relay_collaboration/__init__.py",
+      "sha256": "d70ef3eed5dd264be53f421a08a5ac472849dd7b21ff499add597482a64a1ce1",
+      "size": 106
+    },
+    {
+      "path": "relay_collaboration/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "size": 47
+    },
+    {
+      "path": "relay_collaboration/app_mailbox.py",
+      "sha256": "278c9b826bf2695daa6b39553db6bfc7af7c85ee5dd4172a418be37ce113f0e2",
+      "size": 37526
+    },
+    {
+      "path": "relay_collaboration/bridge_client.py",
+      "sha256": "087554556b16da4f787556cb21e8b40058a55ec7cc57d926a4f826ce8185d152",
+      "size": 7951
+    },
+    {
+      "path": "relay_collaboration/bridge_core.py",
+      "sha256": "303d2633fb6941c26523d937cfa94da39caf2fec8e155c554f8ebfbf08150daa",
+      "size": 29659
+    },
+    {
+      "path": "relay_collaboration/bridge_server.py",
+      "sha256": "0cbfef5d41d38feae1043a58d3dc01de465012eae930a9c531c6c6b5c30a9eaa",
+      "size": 19556
+    },
+    {
+      "path": "relay_collaboration/cli.py",
+      "sha256": "b77a4cb58319a285308900c7d18b52b3f48d403e2d8f975cd9eca34e2f98d6c5",
+      "size": 30784
+    },
+    {
+      "path": "relay_collaboration/cli_executor.py",
+      "sha256": "4b780f051ba866061c10ef1feb66d8ce462ff288855421eaf3eec633d20be095",
+      "size": 29283
+    },
+    {
+      "path": "relay_collaboration/codex_executor.py",
+      "sha256": "41a380af4e514448f5f80e078f61ff67bdd0fbb6730562b3d44efb849e0aefd4",
+      "size": 11720
+    },
+    {
+      "path": "relay_collaboration/config.py",
+      "sha256": "540f163a1d5bba5b81f227c4f6aedfd7e1a899ac1b8ffa2fb74ac73ed02dfb54",
+      "size": 18334
+    },
+    {
+      "path": "relay_collaboration/console_backend.py",
+      "sha256": "269cb4f29a313125d5ee6a850de8e3e233aacf54cc69e83bfcc614cdb3881400",
+      "size": 35231
+    },
+    {
+      "path": "relay_collaboration/console_server.py",
+      "sha256": "c71d2756c5d430291ad9719666cf2df09082b8ece4e5b4c27016488bccd55b53",
+      "size": 10537
+    },
+    {
+      "path": "relay_collaboration/context_dispatch.py",
+      "sha256": "758824683a8bd11ed5316a8ed54dbd823775ab646aa61f19c7a0dfbcf750483d",
+      "size": 25413
+    },
+    {
+      "path": "relay_collaboration/desktop.py",
+      "sha256": "0d3785ade7fba115fa4a6b1a277ec7f060879641961841f3f1d9164f3d9c3936",
+      "size": 2223
+    },
+    {
+      "path": "relay_collaboration/execution.py",
+      "sha256": "afb9b491417a0b4efcfdbbf66e8a67d6ac99cfa8710e2570b638ebca9496707c",
+      "size": 1648
+    },
+    {
+      "path": "relay_collaboration/instances.py",
+      "sha256": "dcc49197a8af23cddaef5a47264e7f0fef8eb460a00668ee12e502ee576cb364",
+      "size": 12122
+    },
+    {
+      "path": "relay_collaboration/model_selection.py",
+      "sha256": "f9375924052a3dee55b848687c767ca1409e7d0bc6b6f4b20733936f17a092d4",
+      "size": 6339
+    },
+    {
+      "path": "relay_collaboration/privacy.py",
+      "sha256": "0625575c775cfa7e7d37e324cd4dcadecf4a605a878125d857df84ac001838b0",
+      "size": 4397
+    },
+    {
+      "path": "relay_collaboration/process_identity.py",
+      "sha256": "e52261b279f06afe0bb592a158be6a9d86c58c48dffa24acba602f059368ccd9",
+      "size": 4929
+    },
+    {
+      "path": "relay_collaboration/quickstart.py",
+      "sha256": "3f95b3d2021512d7b6db0415b26e5729e275987656526387d9e9269b8cf3e014",
+      "size": 21461
+    },
+    {
+      "path": "relay_collaboration/service.py",
+      "sha256": "0521bdad9dd73a758438b2c1f99e4e4aaedfc0bcb06960f4790decb4c8181281",
+      "size": 20550
+    },
+    {
+      "path": "relay_collaboration/skill_install.py",
+      "sha256": "7dfb9311a93339f817dfda5cfa8f2b242ecdd489b3b46216ab78b7e22650fe5e",
+      "size": 7526
+    },
+    {
+      "path": "relay_collaboration/vision.py",
+      "sha256": "0f424e34628afd3e5c2a7c78a97e39da5fb915dc1f57a3f5286c94a0648206ef",
+      "size": 5249
+    },
+    {
+      "path": "relay_collaboration/web/app.js",
+      "sha256": "4d0cf1393b97d81bea419493dd0d6904d9e60347ca36d96dcda50cb3def65672",
+      "size": 29404
+    },
+    {
+      "path": "relay_collaboration/web/bindings.js",
+      "sha256": "4b1763f991183c5775f4c9109d5a22453033d561b231eb0c335ffcfee107949e",
+      "size": 9133
+    },
+    {
+      "path": "relay_collaboration/web/flow_model.js",
+      "sha256": "fc6d8a69665f1c671ee2825b4c49736b785bcbee1dc071a698fbfb2961bd0382",
+      "size": 5374
+    },
+    {
+      "path": "relay_collaboration/web/i18n.js",
+      "sha256": "59ebaa4eafcabf73554016a44779b5374d7df3c321f33a3955c6f1a14e586043",
+      "size": 25973
+    },
+    {
+      "path": "relay_collaboration/web/index.html",
+      "sha256": "40d2b3cf8142d8dc96e4846b619f731850f9f5d75a33c04cf62a4f27635535f7",
+      "size": 16726
+    },
+    {
+      "path": "relay_collaboration/web/package.json",
+      "sha256": "0f5d45bb8e21034a8895ca71269f69e6dfa5b786cc65cf8ceb4bcb45bd516171",
+      "size": 120
+    },
+    {
+      "path": "relay_collaboration/web/style.css",
+      "sha256": "c1f868794b3dbc81e3c12798dbad36dd704c7691ebd1e736eac88a22c76c5ff5",
+      "size": 17440
+    },
+    {
+      "path": "relay_collaboration/worker_core.py",
+      "sha256": "268b05586d7345047dcd023c021af4a0a58b268231baaab57e9f4861d90a0e7d",
+      "size": 34860
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "bab5ffed773be745206f0a0b3d38a63b1b4a55dbc5c52ad68114318ac803b684",
+      "size": 130
+    },
+    {
+      "path": "scripts/build_exe.py",
+      "sha256": "58f40acca5a0d5ae012829a3d3c4b65ae6eb4695be62fc7d2b618c5de0ade016",
+      "size": 6815
+    },
+    {
+      "path": "scripts/install.ps1",
+      "sha256": "2c44e1dd6689ef439fbc4d4d8696f3b6bf696f2376fcabedbe1e7f68f76c4e35",
+      "size": 3706
+    },
+    {
+      "path": "scripts/install_skills.py",
+      "sha256": "0e1d350439d1cec13eccbefde778a16e225c109ef541c27ae9dd318119caa131",
+      "size": 294
+    },
+    {
+      "path": "scripts/package.py",
+      "sha256": "49cc50ab2a536d387c2dfc565d438b347f30d78be251c73335833fbaf0016cc9",
+      "size": 14419
+    },
+    {
+      "path": "scripts/quickstart.ps1",
+      "sha256": "8402ecda68f9a971184de89014d09d4b06d726bfad2b8d5971a0fcf8a53eafc4",
+      "size": 1591
+    },
+    {
+      "path": "scripts/skill-command.ps1",
+      "sha256": "a68b5e01c88ae3659fe65b93d228fb24079cb0274c14542469909024c2b7ee2c",
+      "size": 1462
+    },
+    {
+      "path": "scripts/start.ps1",
+      "sha256": "059260c07700a47ad85884087603099cecd85541caf0bf855d7aaffd0a0d4f24",
+      "size": 831
+    },
+    {
+      "path": "scripts/status.ps1",
+      "sha256": "008e0add4ede8be315fd343dec0d0bb6a923163f0537db031da1cc6385f9e1a9",
+      "size": 833
+    },
+    {
+      "path": "scripts/stop.ps1",
+      "sha256": "0bc8274f0f48cc9166c8b40f579d8cc53b1ef85be5a7ab2d243898083f2dc2d1",
+      "size": 935
+    },
+    {
+      "path": "scripts/test.ps1",
+      "sha256": "c35f7008232276ad7c255e21782fd6cc548aa7ccbaf69e9c37d505ff32f3bbaf",
+      "size": 1065
+    },
+    {
+      "path": "scripts/verify-package.py",
+      "sha256": "d2d28fe3d239eafcf5aef8339273af993d7472b1f29090958c03a66fa5ddb7b7",
+      "size": 766
+    },
+    {
+      "path": "scripts/verify_exe.py",
+      "sha256": "11b4aa569e6515cab0deb6eb18782390f7d33f4f3d6034f0b4badb711fc7787c",
+      "size": 4361
+    },
+    {
+      "path": "skills/relay-claude-code/SKILL.md",
+      "sha256": "bcd3eb4e36354f20a0e5fcda552409ffd267fdc0cec85b3eb327411699015212",
+      "size": 7768
+    },
+    {
+      "path": "skills/relay-codex-app/SKILL.md",
+      "sha256": "caceb5b06fdc213b86dd3fa953715e2a2e1993578bd87933b312477ca355b341",
+      "size": 11195
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "e1e9e8337faf048066a84195fed97ab22cb7d59ad28bec7a613ec0a20f549653",
+      "size": 179
+    },
+    {
+      "path": "tests/test_app_mailbox.py",
+      "sha256": "c22add24396428ad429754b19a16a05b4325fa0e49c15973a9d2d969ea568b6b",
+      "size": 17331
+    },
+    {
+      "path": "tests/test_app_rebind.py",
+      "sha256": "2efd9b393da9b91994f572428a5f57823d5c5d9f59b11f7af5e6ea610742c029",
+      "size": 12295
+    },
+    {
+      "path": "tests/test_app_release.py",
+      "sha256": "321ef072c78cba2ba4048a373f74af3f63aabfb4993ccc137fbaccf1664e0527",
+      "size": 10760
+    },
+    {
+      "path": "tests/test_bidirectional.py",
+      "sha256": "ccd170220d835ccd4d85b7552d0653ee8a7a7a9749fc8f76ef0a16cec5205d28",
+      "size": 9535
+    },
+    {
+      "path": "tests/test_binding_console.py",
+      "sha256": "a8a9fbaccda86bc6ce51ce27e06a83892ee4dcabf39589fa42210ea321b26f6d",
+      "size": 7189
+    },
+    {
+      "path": "tests/test_bridge_core.py",
+      "sha256": "0f722aab89a90e5955272d91c802fa068e13d8114ac5755ca21cc3216a527e42",
+      "size": 21565
+    },
+    {
+      "path": "tests/test_bridge_observer.py",
+      "sha256": "1ee6a81bfe3f2217bfa1738902ce6057d4b3d7716bb9b89333d31df23bd54b41",
+      "size": 6566
+    },
+    {
+      "path": "tests/test_bridge_transports.py",
+      "sha256": "47aeba2a2892ee9f42e9f382501979370c102b3870d7623b513665a5845f1ffd",
+      "size": 12987
+    },
+    {
+      "path": "tests/test_cli_executor.py",
+      "sha256": "d05e1c4b5168d2479b35bfe1b64c3e32272759e3569665e2f040fa6c8b49628e",
+      "size": 17110
+    },
+    {
+      "path": "tests/test_codex_executor.py",
+      "sha256": "e982bf42a1edb5cfd037b837cc508f76f140335aa33891fc8e1767642bcd2041",
+      "size": 6057
+    },
+    {
+      "path": "tests/test_console.py",
+      "sha256": "158095f78a7afbc2bf5d4b11535543e6597a1b71d53b64f9276741ed00c4c39b",
+      "size": 12184
+    },
+    {
+      "path": "tests/test_console_recovery.py",
+      "sha256": "61f9429a4823399639cd2c3303ad24ec4cb7a38b6a93d283052c81ea07d64e8d",
+      "size": 17239
+    },
+    {
+      "path": "tests/test_context_dispatch.py",
+      "sha256": "504fce81903c75489118c79c677f6d12bdc95bccc8141f5d47776b69eab9fec8",
+      "size": 17964
+    },
+    {
+      "path": "tests/test_controller_locks.py",
+      "sha256": "54250c755151776909a9ce9db4d73bed00d702fa495be88bd042c45f8c9578e5",
+      "size": 9025
+    },
+    {
+      "path": "tests/test_executable.py",
+      "sha256": "aa9690870ce484436fff74a384d152efada2ee17d93771d83b3b56d5d1f0bd45",
+      "size": 5446
+    },
+    {
+      "path": "tests/test_frontend.mjs",
+      "sha256": "c75197996d5d767a5c1e3a418c27ce636e91b153595045b4896749057072c0ea",
+      "size": 11335
+    },
+    {
+      "path": "tests/test_install.py",
+      "sha256": "72938d3ed36d5357955dc9b05983a8fe89bab3194da85ef39578e7be18d3d1a6",
+      "size": 2090
+    },
+    {
+      "path": "tests/test_instances.py",
+      "sha256": "0b084c7835b83872eb14bfff4f31bd8911c3aa09aa6d24bb226337a798ff8722",
+      "size": 12748
+    },
+    {
+      "path": "tests/test_lifecycle.py",
+      "sha256": "7c7df5b654e4af20671226f424e7dc64918dbc9f602c997f61a30b6d49cb6162",
+      "size": 13304
+    },
+    {
+      "path": "tests/test_model_selection.py",
+      "sha256": "25c4d37b8e979a43bd5e6b2624a0a55a7b90a17d618a6275b1a78e380b41b992",
+      "size": 9895
+    },
+    {
+      "path": "tests/test_packaging.py",
+      "sha256": "2239fa476638bb4ac7deb2694c668290c9836bae488d3789a19b3d0f45e0dd56",
+      "size": 7022
+    },
+    {
+      "path": "tests/test_portability.py",
+      "sha256": "e26df01b7d9707d1c53a356b0e6652cd314e1ce50d3af5a442177cd0b7356d2c",
+      "size": 10704
+    },
+    {
+      "path": "tests/test_quickstart.py",
+      "sha256": "408ffa70c1afc612223c68d4045899f569d3ca97213e00deb69a395aa6079016",
+      "size": 10237
+    },
+    {
+      "path": "tests/test_skills_install.py",
+      "sha256": "5533505ce8d087ecafffa39a86ff5de3ea5067c70dc28f9c7d3653c349390f00",
+      "size": 8023
+    },
+    {
+      "path": "tests/test_vision.py",
+      "sha256": "c239e021da646408f12c233ebc3239b354b94651d72d1cb1a5f5398ef7d91f1a",
+      "size": 5950
+    },
+    {
+      "path": "tests/test_worker_core.py",
+      "sha256": "07ac519773a3c3de213da72842ff60015bd7b59b232c00cad6c90744fc274439",
+      "size": 24713
+    }
+  ],
+  "package": "relay-collaboration",
+  "schema_version": 1,
+  "version": "0.5.0"
+}

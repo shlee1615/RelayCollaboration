@@ -1,0 +1,2 @@
+# Runtime: Python 3.11+ standard library only.
+# Claude is optional, separately installed and authenticated in a private profile.

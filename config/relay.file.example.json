@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "project": {"id": "relay-demo", "root": "./workspace"},
+  "runtime": {"root": "./.relay-private"},
+  "endpoints": {"broker": "http://127.0.0.1:9041", "console": "http://127.0.0.1:9042"},
+  "transport": "file",
+  "provider": {"kind": "unavailable"}
+}

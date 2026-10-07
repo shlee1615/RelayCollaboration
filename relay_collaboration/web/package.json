@@ -1,0 +1,1 @@
+{"name":"relay-collab-console","private":true,"type":"module","scripts":{"test":"node ../../tests/test_frontend.mjs"}}

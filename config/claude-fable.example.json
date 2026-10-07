@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "project": {"id": "relay-demo", "root": "./workspace"},
+  "runtime": {"root": "./.relay-private"},
+  "endpoints": {"broker": "http://127.0.0.1:9041", "console": "http://127.0.0.1:9042"},
+  "transport": "http",
+  "provider": {
+    "kind": "claude_cli",
+    "command": ["REPLACE_WITH_ABSOLUTE_NATIVE_CLAUDE_EXECUTABLE"],
+    "model": "fable",
+    "effort": null,
+    "auth_profile": "subscription"
+  }
+}

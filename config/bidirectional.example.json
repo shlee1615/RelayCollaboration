@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project": {"id": "relay-two-way", "root": "./workspace"},
+  "runtime": {"root": "./.relay-private"},
+  "endpoints": {"broker": "http://127.0.0.1:9041", "console": "http://127.0.0.1:9042"},
+  "transport": "http",
+  "provider": {
+    "kind": "claude_cli", "command": ["C:/replace-with-your-installation/claude.exe"],
+    "model": null, "effort": null, "auth_profile": "subscription"
+  },
+  "codex_provider": {
+    "kind": "codex_cli", "command": ["C:/replace-with-your-installation/codex.exe"],
+    "model": null, "effort": null, "auth_profile": "subscription"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project": {"id": "relay-demo", "root": "./workspace"},
+  "runtime": {"root": "./.relay-private"},
+  "endpoints": {"broker": "http://127.0.0.1:9041", "console": "http://127.0.0.1:9042"},
+  "transport": "http",
+  "provider": {"kind": "unavailable"},
+  "worker": {
+    "allowed_paths": [],
+    "allowed_modes": ["read_only", "proposal"],
+    "claim_ttl_seconds": 900,
+    "task_timeout_seconds": 600,
+    "safety_margin_seconds": 30,
+    "poll_seconds": 2,
+    "request_timeout_seconds": 10,
+    "shutdown_grace_seconds": 5,
+    "auth_retry_seconds": 30
+  }
+}

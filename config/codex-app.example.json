@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "project": {"id": "relay-app", "root": "./workspace"},
+  "runtime": {"root": "./.relay-private"},
+  "endpoints": {"broker": "http://127.0.0.1:9141", "console": "http://127.0.0.1:9142"},
+  "transport": "http",
+  "provider": {"kind": "unavailable"},
+  "codex_provider": {"kind": "codex_app"},
+  "worker": {"allowed_paths": [], "allowed_modes": ["read_only", "proposal"]}
+}
