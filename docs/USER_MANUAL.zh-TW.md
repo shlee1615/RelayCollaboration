@@ -111,6 +111,8 @@ runtime 包含認證、SQLite、原始 prompt、結果、journal 與 evidence，
 
 ## 8. 開發、測試、封裝與更新
 
+測試請在 Git 目錄之外的乾淨來源 ZIP 解壓目錄執行，建議使用 `D:\RelayQA` 等短路徑。部分 fixture 在來源內建立私人 runtime，從 Git checkout 直接跑全套測試會觸發祖先目錄防護；深層 Windows 測試路徑也可能失敗。保留檢查，改用短路徑解壓驗證。
+
 ```powershell
 python -B -X utf8 -m unittest discover -s tests -t . -v
 node --test tests/test_frontend.mjs

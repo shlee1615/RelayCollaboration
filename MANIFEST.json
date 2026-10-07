@@ -22,8 +22,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "72b469284818872f76ae3d57d932b61f30df344050559df51ff234c223060814",
-      "size": 7241
+      "sha256": "ccbdf249f6615b5f0d7bb4a38aadaf6e34213ee0ff424939fffa6122f894c76a",
+      "size": 7332
     },
     {
       "path": "README.zh-TW.md",
@@ -142,13 +142,13 @@
     },
     {
       "path": "docs/SHARING.md",
-      "sha256": "5f3760fe88448aef067e259ca9011d9acbe15e5f510d3bec214e01d2cbb59997",
-      "size": 4348
+      "sha256": "9141eb035d2bb3902f058184f6ac432392702f3de88629da8ba5a491f85811ac",
+      "size": 4741
     },
     {
       "path": "docs/USER_MANUAL.zh-TW.md",
-      "sha256": "dc9a6935a28b2a57951ed69d7db16995c53958ca598511985fe4cc9e73f4a50d",
-      "size": 9729
+      "sha256": "08a999a17c305505128aa0131176845201bfa9517f31e270a82e3a114eeebd37",
+      "size": 10050
     },
     {
       "path": "docs/VALIDATION.md",

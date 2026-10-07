@@ -105,7 +105,8 @@ running as the same Windows user. Multiple instances do not multiply account quo
 - [Validation scope](docs/VALIDATION.md), [release notes](docs/RELEASE_NOTES.md)
 - [Sharing preparation](docs/SHARING.md), [package notices](NOTICE.md)
 
-Developer checks from the source root:
+Developer checks from a clean source ZIP extraction outside Git ancestry, using
+a short Windows path (for example `D:\RelayQA`):
 
 ```powershell
 .\.venv\Scripts\python.exe -B -X utf8 -m unittest discover -s tests -t . -v

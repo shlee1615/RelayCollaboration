@@ -64,6 +64,12 @@ existing private runtime to solve the CLI's `.git` ancestor check.
 
 ## Developer verification
 
+Run tests in a clean source archive extraction outside Git ancestry. Some fixtures
+initialize their own private runtime under `work`; a Git checkout's ancestor guard
+will correctly reject those fixtures. Use a short Windows path for the extraction,
+such as `D:\RelayQA`, to avoid deep nested fixture paths. Do not disable runtime
+path or permission checks to make a checkout's fixtures pass.
+
 ```powershell
 .\.venv\Scripts\python.exe -B -X utf8 -m unittest discover -s tests -t . -v
 node tests/test_frontend.mjs
